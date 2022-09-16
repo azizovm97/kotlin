@@ -1,0 +1,32 @@
+import kotlin.math.*
+
+
+fun square (a:Int) = a*a
+
+fun circle (d:Int) = d * PI
+
+fun fahrenheit(tc:Double) = (tc*9/5)+32
+
+fun abxy (A:Double, B:Double, X:Double, Y:Double){
+
+    println(String.format("%.4f", (A / X)))
+    println(String.format("%.4f", (B / Y)))
+    println(String.format("%.2f", ((A / X)/(B / Y))))
+}
+
+fun integer3 (bt:Double) = (bt / 1024).toInt()
+
+fun main(args: Array<String>) {
+    //print("a:")
+    //println("Square:" + square(readLine()!!.toInt()))
+    //println("d: ")
+    //36println("circle:" + circle(readLine()!!.toInt()))
+    //println("tc")
+    //println("fahrenheit" + fahrenheit(readLine()!!.toDouble()))
+    //println(abxy(120.5, 130.7, 8.2, 4.4))
+    //println(String.format("%.2f",PI))// "pi = %.${2}f" + formatPI
+
+   println("Byte: ")
+   println("byte file "+ integer3(readLine()!!.toDouble()))
+
+}

@@ -1,0 +1,33 @@
+fun boolean1 (a:Int){
+    if (a>0)
+    println("The number $a is positive")
+}
+
+fun boolean2 (a:Int){
+    if (a%2!=0) println("The number $a is odd")
+}
+
+fun boolean3 (a:Int){
+    if (a%2==0) println("The number $a is even")
+    
+}
+
+fun boolean4 (a:Int, b:Int){
+    if (a>2 && b<=3) 
+        println("fair!")
+}
+
+fun boolean5 (a:Int, b:Int){
+    if (a>=0 && b<-2) 
+        println("fair!")
+}
+
+
+fun main() {
+   pintln(boolean1(43))
+   println(boolean2(45))
+   println(boolean3(45))
+   println(boolean4(4,2))
+   println(boolean5(1,-4))
+   
+}

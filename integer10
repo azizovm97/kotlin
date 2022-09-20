@@ -1,0 +1,21 @@
+//Дано трехзначное число. Вывести вначале его последнюю цифру (единицы), а затем — его среднюю цифру (десятки).
+
+fun integer10 (x:Int){
+    var x1:Int
+    var x2:Int
+    var x3:Int
+    
+    if (x>=100){
+    x1 = x / 100
+    x2 = x % 100 / 10
+    x3 = x % 10
+    println("The last number of a three-digit number $x3")
+    println("The average number, i.e. tens $x2")
+    println("The first digit in the number $x1")
+    } else
+    println("The number is incorrect")
+}
+
+fun main() {
+   println(integer10(942))
+}

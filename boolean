@@ -24,7 +24,7 @@ fun boolean5 (a:Int, b:Int){
 
 
 fun main() {
-   pintln(boolean1(43))
+   println(boolean1(43))
    println(boolean2(45))
    println(boolean3(45))
    println(boolean4(4,2))

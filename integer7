@@ -1,0 +1,19 @@
+//Дано двузначное число. Найти сумму и произведение его цифр
+
+fun integer7 (x:Int){
+    var x1:Int
+    var x2:Int
+    
+    if (x>=10){
+    x1 = x / 10
+    x2 = x % 10
+    
+    println("the sum of its digits ${x1+x2}")
+    println("the product of its digits ${x1*x2}")
+    } else
+    println("The number is incorrect")
+}
+
+fun main() {
+   println(integer7(9))
+}

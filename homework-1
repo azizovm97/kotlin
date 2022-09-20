@@ -1,0 +1,16 @@
+fun integer4 (a:Int, b:Int) {
+    if(a>b){
+        println("On segment A there are ${a/b} segments B")
+    }else println("No segments")
+}
+
+fun integer5 (a:Int, b:Int) {
+    if(a>b){
+        println("${a%b} unoccupied part of segment A")
+    }else println("No segments")
+}
+
+fun main() {
+    println(integer4(14,3))
+    println(integer5(14,3))
+}

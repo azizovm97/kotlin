@@ -1,25 +1,41 @@
 fun boolean1 (a:Int){
-    if (a>0)
-    println("The number $a is positive")
+    if (a>0){
+        println("The number $a is positive")
+        return
+    }
+    println("The number $a is negative")
 }
 
 fun boolean2 (a:Int){
-    if (a%2!=0) println("The number $a is odd")
+    if (a%2!=0){ 
+        println("The number $a is odd")
+        return
+    }
+    println("The number $a is even")
 }
 
 fun boolean3 (a:Int){
-    if (a%2==0) println("The number $a is even")
-    
+    if (a%2==0) {
+        println("The number $a is even")
+        return
+    }
+    println("The number $a is odd")
 }
 
 fun boolean4 (a:Int, b:Int){
-    if (a>2 && b<=3) 
+    if (a>2 && b<=3){ 
         println("fair!")
+        return
+    }
+    println("don't fair!")
 }
 
 fun boolean5 (a:Int, b:Int){
-    if (a>=0 && b<-2) 
+    if (a>=0 && b<-2){ 
         println("fair!")
+        return
+    }
+    println("don't fair!")
 }
 
 
